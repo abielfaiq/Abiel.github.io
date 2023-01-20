@@ -1,0 +1,171 @@
+body{
+    background-color: whitesmoke;
+}
+
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #222;
+    padding: 0 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+}
+.item {
+    padding: 10px;
+}
+
+.item:not(.button) a:hover,
+.item a:hover::after {
+    color: #ccc;
+}
+
+img {
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+.card1 {
+    margin-top: 50px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+.card2 {
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    width: 780px;
+}
+
+.card3 {
+    margin-top: 50px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    width: 1270px;
+    height: 200px;
+}
+
+.card4 {
+    margin-top: 50px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    width: 1270px;
+    height: 400px;
+}
+
+.card5 {
+    margin-top: 50px;
+    padding-top: 10px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    width: 1270px;
+    height: 90px;
+}
+
+.card6 {
+    margin-top: 50px;
+    padding-top: 30px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 90px;
+    text-align: center;
+}
+
+
+    
+.card .card-header, .card .card-body, .card .card-footer {
+    background-color: transparent;
+    padding: 20px 25px; 
+}
+
+.card-header1{
+    padding-top: 10px;
+}
+
+header{
+    display: flex;
+    margin-left: 20px;
+}
+
+.flex{
+    display: flex;
+    background-color: #04AA6D;
+    justify-content: center;
+    
+}
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 1165px; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 10px;
+  margin-left: 50px;
+  
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 10px;
+  
+}
+
+.html {width: 90%; background-color: #04AA6D; } /* Green */
+.css {width: 80%; background-color: #ffa60080;} /* Blue */
+.php {width: 60%; background-color: #a70000;} /* Dark Grey */
+
+.me{
+    margin-left: 100px;
+    background-color: #a70000;
+
+}
